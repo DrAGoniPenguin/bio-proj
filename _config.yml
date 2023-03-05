@@ -1,6 +1,6 @@
+theme: jekyll-theme-hacker
 title: Lafora Disease Awareness
 markdown: kramdown
 description: Lafora Disease
-theme: jekyll-theme-hacker
 github:
   is_project_page: false
