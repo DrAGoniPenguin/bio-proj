@@ -1,9 +1,6 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
-name:  me big haxor man lol
 title: Lafora Disease Awareness
-markdown: GFM
+markdown: kramdown
 description: Lafora Disease
+theme: jekyll-theme-hacker
 github:
   is_project_page: false
