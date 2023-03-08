@@ -195,7 +195,7 @@ layout: default
   
 <body>
 
-  <div class="navbar" id="navbar">
+  <div class="navbar" id="thenavbar">
     <a class="active" href="#title">H o m e</a>
     <a href="#history">History</a>
     <a href="#symptoms">Symptoms</a>
@@ -205,12 +205,12 @@ layout: default
     <a href="#support">Support</a>
     <a href="#sources">Sources</a>
     <a href="#reviewed">Reviewed</a>
-    <a href="javascript:void(0);" class="icon" onclick="responseFunction()">&#9776;</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="responseFunction()">&#9776;</a>
   </div>
 
   <script>
     function responseFunction() {
-      var x = document.getElementById("navbar");
+      var x = document.getElementById("thenavbar");
       if (x.className === "navbar") {
         x.className += " responsive";
       } else {
